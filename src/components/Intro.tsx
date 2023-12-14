@@ -40,7 +40,7 @@ const Intro = () => {
         media marketing and content marketing strategies ensure your voice is
         heard across the vast digital landscape. Here, every idea is given the
         time and space to flourish, transforming into narratives that echo
-        through time."
+        through time.
       </p>
     </section>
   );
