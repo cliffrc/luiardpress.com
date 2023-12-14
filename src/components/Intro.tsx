@@ -13,10 +13,11 @@ const Intro = () => {
             <Image
               src={profileImg}
               alt="Luiard Press logo"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
+              priority
+              style={{
+                width: "192px",
+                height: "192px",
+              }}
               className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
             />
           </div>
