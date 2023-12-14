@@ -18,21 +18,19 @@ export const navLinks = [
 ] as const;
 
 export const techServiceData = [
-  "TailwindCSS",
-  "Next.js",
-  "TypeScript",
-  "React",
-  "react-hook-form",
-  "tRPC",
-  "Prisma",
-  "HTMX",
+  "KDP Book Publishing",
+  "Editing",
+  "Reviews",
+  "Author Guidance",
+  "Workshops",
+  "Training",
+  "Agents",
 ] as const;
 
 export const businessServiceData = [
   "Social Media Marketing",
   "Content Repurposing",
   "Content Marketing",
-  "Growth Hacking",
   "Ideation (ChatGPT)",
 ] as const;
 
@@ -42,10 +40,11 @@ export const attributesServiceData = [
   "Tenacious",
   "Persistent",
   "Resilient",
+  "Maturation",
 ] as const;
 
 export const personalProjectsData = [
-  "10strata, with PapyInChat",
-  "We Style Stuff",
-  "Luiard Press",
+  "Slothy Goes To Space",
+  "Chimpy In The Forest",
+  "Toozy Loves To Gossip",
 ] as const;
