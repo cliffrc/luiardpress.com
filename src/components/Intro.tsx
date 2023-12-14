@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profileImg from "@/public/westylestuff-profile.png";
+import profileImg from "@/public/luiardpress-logo.png";
 
 const Intro = () => {
   return (
@@ -12,7 +12,7 @@ const Intro = () => {
           <div>
             <Image
               src={profileImg}
-              alt="We Style Stuff logo"
+              alt="Luiard Press logo"
               width="192"
               height="192"
               quality="95"
@@ -26,23 +26,21 @@ const Intro = () => {
         </div>
       </div>
       <h1 className="small-caps mb-10 mt-7 max-w-lg px-4 text-center text-4xl !leading-[1.5] sm:text-2xl">
-        Elevate Your Online Presence by Unleashing the power of Social Media
-        Marketing and Advanced Tech Solutions
+        In the garden of Luiard Press, we celebrate the slow, steady maturation
+        of thoughts into stories that resonate and endure.{" "}
       </h1>
       <p className="small-caps mb-10  max-w-md px-4 text-center text-base font-normal italic !leading-[1.5] text-zinc-600 sm:text-base">
-        ... with{" "}
-        <span className=" font-bold underline">
-          Our Expertise in Content Repurposing
-        </span>
-        , Growth Hacking, and{" "}
-        <span className=" font-bold underline">
-          Cutting-Edge Development Tools
-        </span>{" "}
-        like Next.js & React.{" "}
-        <span className=" font-bold underline">
-          Innovative Tech like TypeScript and Prisma
-        </span>{" "}
-        will help supercharge your brand&apos;s growth and online influence.
+        Ideas grow at their own rhythm, unbound by the haste of the world. We
+        celebrate the slow, steady maturation of thoughts into stories that
+        resonate and endure. Our comprehensive services, from KDP Book
+        Publishing to content repurposing, cater to authors and thinkers who
+        tread the path of creative resilience. Let our editing team polish your
+        manuscript, our author guidance illuminate your writing journey, and our
+        workshops be your crucible of creativity. Beyond the page, our social
+        media marketing and content marketing strategies ensure your voice is
+        heard across the vast digital landscape. Here, every idea is given the
+        time and space to flourish, transforming into narratives that echo
+        through time."
       </p>
     </section>
   );
